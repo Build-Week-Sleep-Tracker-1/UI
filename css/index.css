@@ -132,10 +132,10 @@ nav {
   justify-items: center;
   font-size: 20px;
   text-decoration: none;
-  width: 100%;
-  padding: 20px;
+  width: 30;
+  padding: 15px;
   border: black 1px solid;
-  background: #1a1919;
+  background: #c7b3b3;
 }
 * {
   margin: 0;
