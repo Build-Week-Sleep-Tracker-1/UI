@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+div .about-section{
+    background-image: url(/img/Sleeptracker.jpg);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Lambda Students, Build Week Project for Sleeptracker</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error eum repudiandae modi ipsum omnis cupiditate!</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://ca.slack-edge.com/ESZCHB482-W012H6PPAJZ-0896219a5f65-512" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>William Schwindt</h2>
+        <p class="title">Backend Guy</p>
+        <p>Lambda student, West Coast,USA</p>
+        <p>william-schwindt@lambdastudents.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://ca.slack-edge.com/ESZCHB482-W012JHXA51Q-61b47c3a8d3b-512" alt="Mike" style="width:75%",
+      style="justify-content: center;">
+      <div class="container">
+        <h2>Eloy Gutierrez</h2>
+        <p class="title">Backend Guy</p>
+        <p>Lambda student, East Coast, USA</p>
+        <p>eloy-gutierrez@lambdastudents.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://ca.slack-edge.com/ESZCHB482-W0138D7GZFS-74183baad32a-512" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Donny Rodriguez</h2>
+        <p class="title">Frontend Guy</p>
+        <p>Lambda student, Central, USA</p>
+        <p>donny-rodriguez@lambdastudents.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+      
+    </div>
+</div>
+<div class="column">
+ <div class="card">
+    <img src="https://ca.slack-edge.com/ESZCHB482-W012QNY2ETW-22bd346a4a42-512" alt="John" style="width:100%">
+    <div class="container">
+        <h2>Noah Bibb</h2>
+        <p class="title">UI Guy</p>
+        <p>Lambda student, East Coast, USA</p>
+        <p>noah-bibb@lambdastudents.com</p>
+        <p><button class="button">Contact</button></p>
+    </div>
+</div>
+</div>
+<div class="column">
+    <div class="card">
+       <img src="https://ca.slack-edge.com/ESZCHB482-W012JQ1MF51-a00058df28fa-512" alt="John" style="width:100%">
+       <div class="container">
+           <h2>Joshua Agins</h2>
+           <p class="title">PL</p>
+           <p>Lambda student? TL, Central, USA</p>
+           <p>joshua-agins@lambdastudents.com</p>
+           <p><button class="button">Contact</button></p>
+       </div>
+   </div>
+   </div>
+
+
+</body>
+</html>
